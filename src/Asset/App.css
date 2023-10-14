@@ -1,0 +1,500 @@
+body {
+    font-family: "Poppins", sans-serif;
+    
+    line-height: 1.9;
+    color: #8c8c8c;
+    background: url(./Images/Re.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    
+    padding: 0px 80px 80px 80px;
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* background: #1f1d2b; */
+}
+.container.container-fluid {
+    max-width: 100% !important;
+}
+.col-md-12.form-group{
+    margin-bottom: 25px;
+}
+
+form#contactForm{
+    width: 536px;
+     height: auto;
+      top: 267px;
+       left: 823px;
+        border-radius: 35.02px ;
+        border: 1px solid 0.88px white;
+}
+
+.input_box {
+    background: transparent;
+    color: #bababa;
+    font-size: 24px;
+    font-family: Poppins;
+    text-align: center;
+    font-weight: 500;
+    line-height: 36px;
+    word-wrap: break-word;
+}
+
+.input_container {
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 2px #9b51e0 solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+}
+
+.myComponent {
+    width: 100%;
+    height: 100%;
+    background: #18b2de;
+    box-shadow: 200px 200px 200px;
+    border-radius: 9999px;
+    filter: blur(200px);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: "Poppins", sans-serif;
+    color: #000;
+}
+
+a {
+    -webkit-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+}
+
+a,
+a:hover {
+    text-decoration: none !important;
+}
+
+.content {
+    padding: 0rem 0;
+}
+
+.heading {
+    font-size: 48px;
+    font-weight: 900;
+    color: #e6e6e6;
+}
+
+p.head {
+    font-weight: 900;
+    color: #fff;
+    line-height: 31px;
+}
+
+.info {
+    font-size: 38px;
+    font-weight: 600;
+    color: #fff;
+    font-family: DM Serif Display;
+}
+
+.choose {
+    font-size: 38px;
+    font-weight: 600;
+    padding: 5px;
+    color: #fff;
+    font-family: DM Serif Display;
+}
+
+button.nxt {
+    border: 1px solid #000;
+    background: #353535;
+    padding: 8px 25px;
+    border-radius: 15px;
+}
+
+button.nxt a {
+    color: #e4e4e4;
+}
+
+label {
+    color: #e4e4e4;
+    margin-bottom: 0;
+}
+
+.form-outer {
+    border: 1px solid #fff;
+    padding: 50px;
+    border-radius: 25px;
+}
+
+/* .outer {background: url(./Images/Re.jpg); background-size: 100%;background-repeat: no-repeat;padding: 0px 80px 80px 80px;position: relative;}
+.outer1 {background: url(./Images/Re.jpg);background-size: 100%;background-repeat: no-repeat;padding: 0px 80px 80px 80px;position: relative;} */
+.outer1 .info {
+    font-size: 32px;
+    font-weight: 500;
+    border-bottom: 1px solid #000;
+    color: #000;
+}
+
+.outer1 .choose {
+    font-size: 38px;
+    font-weight: 600;
+    color: #fff;
+    font-family: DM Serif Display;
+}
+
+.g13 img {
+    width: 60%;
+}
+
+p.g13 {
+    position: absolute;
+    left: -80px;
+    top: -120px;
+}
+
+.p22 {
+    position: absolute;
+    left: -20px;
+    bottom: 0;
+}
+
+.p22 img {
+    width: 80%;
+}
+
+.g4 {
+    position: absolute;
+    right: -70px;
+    bottom: 30px;
+}
+
+.g4 img {
+    width: 80%;
+}
+
+.g5 {
+    position: absolute;
+    right: -80px;
+    top: -95px;
+}
+
+.g5 img {
+    width: 80%;
+}
+
+.box-outer ul li {
+    width: 32%;
+}
+
+.box-outer ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.box-outer1 ul li {
+    margin-bottom: 8px;
+}
+
+.box-outer1 ul {
+    list-style: number;
+    color: #fff;
+}
+
+.nxt1 {
+    border: 1px solid #000;
+    background: transparent;
+    padding: 8px 45px;
+    font-size: 18px;
+    border-radius: 16px;
+}
+
+.nxt1 a {
+    color: #000;
+}
+
+.form-control {
+    border: 1px solid #e4e4e4;
+    background: transparent;
+}
+
+.form-control:active,
+.form-control:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #000;
+    background: #f3f3f3;
+}
+
+
+.input,
+.form-control,
+.custom-select {
+    height: 38px;
+}
+#contactForm input:focus {
+        outline: none;
+        color: #000;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            border-color: #000;
+            background: #f3f3f3;
+}
+#contactForm input {
+    color: white;
+}
+input#store {
+    background: none;
+}
+
+input#key {
+    background: none;
+}
+
+input#key:focus {
+    outline: none;
+    color: black;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #000;
+    background: #f3f3f3;
+
+}
+
+input#store:focus{
+outline: none;
+color: black;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #000;
+    background: #f3f3f3;
+    
+}
+
+.custom-select:active,
+.custom-select:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #000;
+}
+
+.btn {
+    border: none;
+    border-radius: 4px !important;
+}
+
+.btn.btn-primary {
+    min-height: 50px;
+    background: #0000;
+    color: #fff;
+    width: 34%;
+    margin: 20px auto 0px !important;
+    background-image: linear-gradient(To left, #3081edcc, #9b51e0);
+    border-radius: 10px !important;
+}
+
+.btn.btn-primary a {
+    color: #fff;
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+.btn:active,
+.btn:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.box {
+    padding: 40px;
+    background: #fff;
+    -webkit-box-shadow: -30px 30px 0px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: -30px 30px 0px 0 rgba(0, 0, 0, 0.08);
+}
+
+.box h3 {
+    font-size: 14px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+label.error {
+    font-size: 12px;
+    color: red;
+}
+
+#message {
+    resize: vertical;
+}
+
+#form-message-warning,
+#form-message-success {
+    display: none;
+}
+
+#form-message-warning {
+    color: #b90b0b;
+}
+
+#form-message-success {
+    color: #55a44e;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.submitting {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    display: none;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000;
+}
+
+button.create {
+    background: transparent !important;
+    border: 1px solid #d7d7d7;
+    padding: 10px 25px;
+    color: #d7d7d7;
+    border-radius: 10px;
+    max-height: 45px;
+    line-height: 23px;
+}
+
+button.create a {
+    color: #d7d7d7;
+}
+
+.store {
+    width: 22% !important;
+
+}
+
+.meet {
+    background: -webkit-linear-gradient(left, #9b51e0, #3081ed);
+    -webkit-text-fill-color: transparent;
+    border-bottom: 1px solid #9b51e0;
+    width: 37%;
+    margin: 0 auto;
+}
+
+.tech {
+    text-align: center;
+    border: 1px solid;
+    color: #d7d7d7;
+    border-radius: 10px;
+}
+
+
+
+.store-btn-outer {
+    display: flex;
+    column-gap: 20px;
+}
+.store-btn-outer .btn-primary {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.btn.btn-secondary {
+    background: transparent;
+    border: 1px solid #3e69cb;
+    min-height: 50px;
+    padding: 0 !important;
+    border-radius: 10px !important;
+}
+
+.accessShopify{
+    float: left;
+
+}
+
+.accessShopifyNxt{
+float: right;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .outer {
+        background: url(./Images/Re.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding: 0px 0px 0px 0px;
+        position: relative;
+    }
+
+    .outer1 {
+        background: url(./Images/Rec.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding: 0px 0px 0px 0px;
+        position: relative;
+    }
+
+    .form-outer {
+        border: 1px solid #fff;
+        padding: 50px 10px;
+        border-radius: 25px;
+    }
+
+    .g5,
+    .g4,
+    .p22 {
+        display: none;
+    }
+
+    .info {
+        font-size: 24px;
+    }
+
+    .outer1 .info {
+        font-size: 24px;
+    }
+
+    .box-outer ul {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        padding: 0;
+        column-gap: 80px;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .choose {
+        font-size: 26px;
+        font-weight: 500;
+        color: #e4e4e4;
+    }
+}
